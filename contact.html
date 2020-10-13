@@ -6,15 +6,16 @@
     <link rel="stylesheet" href="alex-sections.css">
     <title>Contact</title>
 </head>
-<body>
+<body id="contact-body">
     <header>
         <nav>
         </nav>
     </header>
-    <main>
-        <form>
+    <main id="contact-main">
+        <h1 id="contact-title">Contact Me</h1>
+        <form id="contact-form">
             <section id="name-question">
-                <label for="name">First name</label><br>
+                <label for="name">Name</label><br>
                 <input type="text" id="name" name="name"><br>
             </section>
             <section id="email-question">
@@ -50,10 +51,10 @@
                   <label for="no">No</label>
                   <input type="radio" name="contact-back" id="no" value="no">
                 </div><br>
-            </section>
+            </section><br>
             <section id="comment-section">
                 <label for="comments">Comments and Questions</label><br>
-                <textarea id="comments" name="comments" minlength="20" maxlength="500">Comments go here!</textarea>
+                <textarea id="comments" name="comments" minlength="20" maxlength="500" cols="65" rows="10">Messages go here!</textarea>
             </section>
         </form>
     </main>

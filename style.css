@@ -2,8 +2,10 @@
 
 #main-landing-body {
     background-image: linear-gradient(to bottom right, rgb(0,0,1), rgb(46,48,53));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-
 
 #main-landing-main {
     display: grid;
@@ -13,6 +15,7 @@
     align-content: center;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 #main-landing-title {
     grid-column: 1 / 4;
     text-align: center;
@@ -20,6 +23,7 @@
     font-size: 45pt;
     margin-bottom: 100pt;
 }
+
 #alex-section {
     grid-column: 3 / 4;
     display: grid;
@@ -51,8 +55,6 @@
     justify-self: center;
     margin: 0 auto;
 }
-
-
 
 .profile-pic:hover{
     transform: scale(1.05);
