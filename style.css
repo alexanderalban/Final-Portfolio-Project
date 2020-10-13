@@ -1,0 +1,60 @@
+/* Main Landing Page Settings */
+
+#main-landing-body {
+    background-image: linear-gradient(to bottom right, rgb(0,0,1), rgb(46,48,53));
+}
+
+
+#main-landing-main {
+    display: grid;
+    grid-template-columns: repeat(4 1fr);
+    grid-template-rows: repeat(2 1fr);
+    justify-content: center;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main-landing-title {
+    grid-column: 1 / 4;
+    text-align: center;
+    color: white;
+    font-size: 45pt;
+    margin-bottom: 100pt;
+}
+#alex-section {
+    grid-column: 3 / 4;
+    display: grid;
+    justify-content: center;
+}
+
+#chris-section {
+    grid-column: 1 / 2;
+    display: grid;
+    justify-content: center;
+
+}
+
+.portfolio-names {
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.profile-pic {
+    max-height: 500pt;
+    width: 70%;
+    display: block;
+    box-shadow: 0px 0px 10pt 1pt white;
+    border-radius: 75%;
+    transition: .5s ease-in-out;
+    object-fit: cover;
+    object-position: center top;
+    justify-self: center;
+    margin: 0 auto;
+}
+
+
+
+.profile-pic:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20pt 1pt white;
+}
