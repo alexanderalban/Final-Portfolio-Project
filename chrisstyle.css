@@ -60,6 +60,7 @@ header {
   border-radius: 50px;
 }
 
+
 .has-border:hover {
   opacity: 1;
   background-image: linear-gradient(to left, #436dbb, #2b4981);
@@ -182,6 +183,7 @@ footer {
   width: 30px;
   height: 30px;
   padding: 5px;
+  transition: .2s ease-in-out;
 }
 
 .fab:hover {
