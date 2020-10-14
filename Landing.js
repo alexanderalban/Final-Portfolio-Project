@@ -11,12 +11,34 @@ function scrollFunction() {
   }
 }
 
-document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+let link = document.querySelectorAll('a[href^="#"]');
+link.forEach((anchor) => {
+  // anchor.classList.remove("current");
   anchor.addEventListener("click", function (e) {
     e.preventDefault();
-
+    // anchor.classList.add("current");
     document.querySelector(this.getAttribute("href")).scrollIntoView({
       behavior: "smooth",
     });
+  });
+});
+
+let mainSections = document.querySelectorAll(".section");
+let mainBody = document.querySelector("body");
+let fromTop = mainBody.scrollTop;
+let mainNavLinks = document.querySelectorAll(".link");
+
+mainBody.addEventListener("scroll", function () {
+  fromTop = mainBody.scrollTop;
+  mainNavLinks.forEach(function (currentValue, currentIndex) {
+    let section = mainSections[currentIndex];
+    if (
+      section.offsetTop <= fromTop &&
+      section.offsetTop + section.offsetHeight > fromTop
+    ) {
+      currentValue.classList.add("current");
+    } else {
+      currentValue.classList.remove("current");
+    }
   });
 });
