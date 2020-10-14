@@ -1,6 +1,8 @@
 /* TABLET SETTINGS */
 
 @media (max-width: 768px) {
+
+
     /* Main Landing Page Tablet Settings */
     #main-landing-title {
         font-size: 35pt;
@@ -9,6 +11,7 @@
     .profile-pic {
         width: 75%;
     }
+
 
     /* Contact Page Tablet Settings */
     #contact-main {
@@ -22,6 +25,7 @@
     .form-button {
         font-size: 12pt;
     }
+
 
     /* Gallery Page Tablet Settings */
 
@@ -46,6 +50,27 @@
         "blog .";
     }
 
+    /* Resume Page Tablet Settings */
+    #resume-title {
+        font-size: 35pt;
+    }
+
+    #resume-content {
+        grid-template-columns: 1fr;
+    }
+
+    #resume-description {
+        grid-column: 1 /2;
+    }
+
+    #resume-line {
+        grid-column: 1 / 2;
+    }
+
+    #resume-services, #previous-jobs-title, #education-title {
+        grid-column: 1 / 2;
+        font-size: 24pt;
+
 
 }
 
@@ -67,6 +92,7 @@
     #alex-section {
         grid-column: 1 / 2;
     }
+
 
     /* Contact Page Phone Settings*/
     #contact-main {
@@ -97,6 +123,7 @@
         margin-top: 10px;
     }
 
+
     /* Gallery Page Phone Settings */
 
     #gallery-main {
@@ -121,6 +148,23 @@
         "resume"
         "nasa"
         "blog";
+    }
+
+    /* Resume Page Phone Settings */
+    #resume-main {
+        grid-template-columns: 1fr;
+    }
+
+    #resume-title {
+        grid-column: 1 / 2;
+    }
+
+    #resume-headshot {
+        margin-bottom: 10px;
+    }
+
+    #resume-content {
+        grid-column: 1 / 2;
     }
 
 
