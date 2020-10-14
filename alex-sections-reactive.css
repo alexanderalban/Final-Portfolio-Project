@@ -10,6 +10,19 @@
         width: 75%;
     }
 
+    /* Contact Page Tablet Settings */
+    #contact-main {
+        background-position: center center;
+    }
+
+    #contact-title {
+        font-size: 35pt;
+    }
+
+    .form-button {
+        font-size: 12pt;
+    }
+
 
 }
 
@@ -30,6 +43,35 @@
 
     #alex-section {
         grid-column: 1 / 2;
+    }
+
+    /* Contact Page Phone Settings*/
+    #contact-main {
+        grid-template-columns: 1fr;
+        background-position: center top;
+    }
+
+    #contact-title {
+        grid-column: 1 / 2;
+        font-size: 30pt;
+    }
+
+    #contact-form {
+        grid-column: 1 / 2;
+        grid-template-columns: 1fr;
+    }
+
+    #email-question, #contact-confirm {
+        grid-column: 1 / 2;
+    }
+
+    #comment-section {
+        grid-column: 1 / 2;
+    }
+
+    .form-button {
+        justify-self: right;
+        margin-top: 10px;
     }
 
 
