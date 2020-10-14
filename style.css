@@ -1,7 +1,7 @@
 /* Main Landing Page Settings */
 
-#main-landing-body {
-    background-image: linear-gradient(to bottom right, rgb(0,0,1), rgb(46,48,53));
+html {
+    background: linear-gradient(to bottom right, rgb(0,0,1), rgb(46,48,53)) no-repeat center center fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

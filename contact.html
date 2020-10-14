@@ -11,9 +11,10 @@
         <nav>
         </nav>
     </header>
+    </section>
     <main id="contact-main">
         <h1 id="contact-title">Contact Me</h1>
-        <form id="contact-form">
+        <form id="contact-form" action="results.html" method="GET" enctype="multipart/form-data">
             <section id="name-question">
                 <label for="name">Name</label><br>
                 <input type="text" id="name" name="name"><br>
@@ -56,6 +57,8 @@
                 <label for="comments">Comments and Questions</label><br>
                 <textarea id="comments" name="comments" minlength="20" maxlength="500" cols="65" rows="10">Messages go here!</textarea>
             </section>
+            <button class="form-button" type="reset">Reset</button>
+            <button class="form-button" type="submit">Submit</button>
         </form>
     </main>
     <footer>

@@ -1,11 +1,11 @@
-/* Contact Page Settings */
-
-#contact-body {
-    background-image: linear-gradient(to bottom right, rgb(0,0,1), rgb(46,48,53));
+html {
+    background: linear-gradient(to bottom right, rgb(0,0,1), rgb(46,48,53)) no-repeat center center fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+/* Contact Page Settings */
 
 #contact-main {
     color: white;
@@ -13,6 +13,11 @@
     grid-template-columns: repeat(3 1fr);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16pt;
+    background-image: url("./Images/ken-suarez-lego-man-unsplash.jpg");
+    background-attachment: fixed;
+    background-position: 25% 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #contact-title {
@@ -43,4 +48,55 @@
 textarea {
     max-width: 100%;
     resize: none;
+}
+
+.form-button {
+    max-width: 50%;
+    justify-self: center;
+    padding: 10px;
+    background-color: white;
+    font-weight: bold;
+    color: black;
+    border: 1px solid grey;
+    box-shadow: 0px 0px 2pt 1pt white;
+    transition: .3s ease-in-out;
+    font-size: 16pt;
+}
+
+.form-button:hover {
+    background-color: black;
+    color:white;
+}
+
+.form-button:active {
+    box-shadow: 0px 0px 10pt 1pt white;
+    transform: scale(.001);
+}
+
+/* Results Page Settings */
+
+#results {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+}
+
+.results-link {
+    font-size: 24pt;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+    margin-top: 10px;
+    transition: .3s ease-in-out;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.results-link:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
 }
