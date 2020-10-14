@@ -100,3 +100,128 @@ textarea {
     color: white;
     border: 1px solid white;
 }
+
+/* Gallery Page Settings */
+
+#gallery-main {
+    display:grid;
+    grid-template-columns: repeat(3 1fr);
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("./Images/guille-pozzi-blue-space-unsplash.jpg");
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#gallery-title {
+    grid-column: 2 / 3;
+    color: white;
+    justify-self: center;
+    text-align: center;
+    color: white;
+    font-size: 45pt;
+    margin-bottom: 15pt;
+}
+
+#barbershop-pic {
+    grid-area: barbershop;
+}
+
+#gallery-pic {
+    grid-area: gallery;
+}
+
+#tic-tac-toe-pic {
+    grid-area: tic-tac-toe;
+}
+
+#todos-pic {
+    grid-area: todos;
+}
+
+#calculator-pic {
+    grid-area: calculator;
+}
+
+#responsive-pic {
+    grid-area: responsive;
+}
+
+#resume-pic {
+    grid-area: resume;
+}
+
+#nasa-pic {
+    grid-area: nasa;
+}
+
+#blog-pic {
+    grid-area: blog;
+}
+
+
+
+#gallery-grid {
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    grid-template-rows: repeat(3 1fr);
+    grid-gap: 25pt;
+    grid-template-areas: 
+    "barbershop gallery tic-tac-toe"
+    "todos calculator responsive"
+    "resume nasa blog";
+}
+
+.gallery-image {
+    max-height: 360px;
+    max-width: 100%;
+    border: 2px solid black;
+    transition: .5s ease-in-out;
+}
+
+.gallery-image:hover {
+    transform: scale(1.05);
+}
+
+
+
+/* .wrapper {
+    position: relative;
+    margin: 0 0 3pt 8pt;
+    border-radius: 5px;
+    flex: row auto;
+    overflow: hidden; 
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+  }
+
+  .wrapper:hover .overlay {
+    opacity: 1;
+  }
+
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: none;
+  } */
