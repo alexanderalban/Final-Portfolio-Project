@@ -23,6 +23,29 @@
         font-size: 12pt;
     }
 
+    /* Gallery Page Tablet Settings */
+
+    #gallery-main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #gallery-title {
+        grid-column: 1 / 3;
+        font-size: 35pt;
+    }
+
+    #gallery-grid {
+        grid-column: 1 / 3;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-areas: 
+        "barbershop gallery"
+        "tic-tac-toe todos"
+        "calculator responsive"
+        "resume nasa"
+        "blog .";
+    }
+
 
 }
 
@@ -72,6 +95,32 @@
     .form-button {
         justify-self: right;
         margin-top: 10px;
+    }
+
+    /* Gallery Page Phone Settings */
+
+    #gallery-main {
+        grid-template-columns: 1fr;
+    }
+
+    #gallery-title {
+        grid-column: 1 / 2;
+    }
+
+    #gallery-grid {
+        grid-column: 1 / 2;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(9, 1fr);
+        grid-template-areas: 
+        "barbershop"
+        "gallery"
+        "tic-tac-toe"
+        "todos"
+        "calculator"
+        "responsive"
+        "resume"
+        "nasa"
+        "blog";
     }
 
 
