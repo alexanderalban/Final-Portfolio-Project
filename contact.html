@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="alex-sections.css">
+    <link rel="stylesheet" href="alex-sections-reactive.css">
+    <title>Contact</title>
+</head>
+<body id="contact-body">
+    <header>
+        <nav>
+        </nav>
+    </header>
+    </section>
+    <main id="contact-main">
+        <h2 id="contact-title">Contact Me</h2>
+        <form id="contact-form" action="results.html" method="GET" enctype="multipart/form-data">
+            <section id="name-question">
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name"><br>
+            </section>
+            <section id="email-question">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email"><br>
+            </section>
+            <section id="how-did-you-hear-question">
+                <p>How did you hear about me?</p>
+                <div>
+                    <label for="classmate">Classmate</label>
+                    <input type="checkbox" name="classmate" id="classmate">
+                  </div>
+                  <div>
+                    <label for="resume-sub">Resume Submission</label>
+                    <input type="checkbox" name="resume-sub" id="resume-sub">
+                  </div>
+                  <div>
+                    <label for="LinkedIn">LinkedIn</label>
+                    <input type="checkbox" name="LinkedIn" id="LinkedIn">
+                  </div>
+                  <div>
+                    <label for="coding-academy-rec">Coding Academy Recommendation</label>
+                    <input type="checkbox" name="coding-academy-rec" id="coding-academy-rec">
+                  </div>
+            </section>
+            <section id="contact-confirm">
+                <p>Would you like to be contacted back?</p>
+                <div>
+                  <label for="yes">Yes</label>
+                  <input type="radio" name="contact-back" id="yes" value="yes">
+                </div>
+                <div>
+                  <label for="no">No</label>
+                  <input type="radio" name="contact-back" id="no" value="no">
+                </div><br>
+            </section><br>
+            <section id="comment-section">
+                <label for="comments">Comments and Questions</label><br>
+                <textarea id="comments" name="comments" minlength="20" maxlength="500" cols="65" rows="10">Messages go here!</textarea>
+            </section>
+            <button class="form-button" type="reset">Reset</button>
+            <button class="form-button" type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
