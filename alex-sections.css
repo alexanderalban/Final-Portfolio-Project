@@ -210,10 +210,12 @@ textarea {
     opacity: 0;
     transition: .5s ease;
     background-color: rgba(0, 0, 0, 0.7);
+    transform: scale(.001);
 }
 
   .wrapper:hover .overlay {
     opacity: 1;
+    transform: scale(1);
   }
 
   .text {
