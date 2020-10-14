@@ -105,7 +105,7 @@ textarea {
 
 #gallery-main {
     display:grid;
-    grid-template-columns: repeat(3 1fr);
+    grid-template-columns: repeat(3, 1fr);
     font-family: Arial, Helvetica, sans-serif;
     background-image: url("./Images/guille-pozzi-blue-space-unsplash.jpg");
     background-attachment: fixed;
@@ -115,7 +115,7 @@ textarea {
 }
 
 #gallery-title {
-    grid-column: 2 / 3;
+    grid-column: 1 / 4;
     color: white;
     justify-self: center;
     text-align: center;
@@ -163,36 +163,40 @@ textarea {
 
 
 #gallery-grid {
-    grid-column: 2 / 3;
+    grid-column: 1 / 4;
     display: grid;
-    grid-template-columns: repeat(3 1fr);
-    grid-template-rows: repeat(3 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     grid-gap: 25pt;
     grid-template-areas: 
     "barbershop gallery tic-tac-toe"
     "todos calculator responsive"
     "resume nasa blog";
+    justify-self: center;
 }
 
 .gallery-image {
     max-height: 360px;
     max-width: 100%;
     border: 2px solid black;
-    transition: .5s ease-in-out;
 }
 
-.gallery-image:hover {
-    transform: scale(1.05);
+.gallery-link {
+    max-height: 360px;
+    max-width: 100%;
 }
 
-
-
-/* .wrapper {
+.wrapper {
     position: relative;
     margin: 0 0 3pt 8pt;
     border-radius: 5px;
     flex: row auto;
     overflow: hidden; 
+    transition: .5s ease-in-out;
+}
+
+.wrapper:hover {
+    transform: scale(1.05);
 }
 
 .overlay {
@@ -205,9 +209,8 @@ textarea {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: none;
-  }
+    background-color: rgba(0, 0, 0, 0.7);
+}
 
   .wrapper:hover .overlay {
     opacity: 1;
@@ -223,12 +226,15 @@ textarea {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-    display: none;
-  } */
+  }
 
 
 
-  
+
 
   /* Resume Page */
 
+#resume-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
