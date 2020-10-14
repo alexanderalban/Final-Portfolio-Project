@@ -241,6 +241,12 @@ textarea {
     grid-template-columns: repeat(2, 1fr);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url("./Images/lorenzo-herrera-various-tech-unsplash.jpg");
+    background-attachment: fixed;
+    background-position: 60% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 #resume-title {
@@ -253,12 +259,20 @@ textarea {
     grid-column: 1 / 2;
     justify-self: center;
     max-width: 100%;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10pt 1pt white;
+    object-fit: cover;
 }
 
 #resume-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 10px;
+    background-color: #252525;
+    padding-left: 10px;
+    box-shadow: 0px 0px 10pt 1pt white;
+    border: 1px solid black;
+
 }
 
 #resume-description {

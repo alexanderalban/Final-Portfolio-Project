@@ -1,0 +1,36 @@
+/* TABLET SETTINGS */
+
+@media (max-width: 768px) {
+    /* Main Landing Page Tablet Settings */
+    #main-landing-title {
+        font-size: 35pt;
+    }
+
+    .profile-pic {
+        width: 75%;
+    }
+
+
+}
+
+
+/* PHONE SETTINGS */
+
+@media (max-width: 576px) {
+    /* Main Landing Page */
+    #main-landing-main {
+        grid-template-columns: 1fr;
+    }
+
+    #main-landing-title {
+        grid-column: 1 / 2;
+        font-size: 30pt;
+        margin-bottom: 25pt;
+    }
+
+    #alex-section {
+        grid-column: 1 / 2;
+    }
+
+
+}
