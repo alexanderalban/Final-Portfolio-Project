@@ -31,7 +31,6 @@ html {
 
 #linked-button:hover {
     box-shadow: 0px 0px 10pt 1pt white;
-    /* transform: scale(1.2); */
     animation: heartBeat;
     animation-duration: 2s;
 }
@@ -210,7 +209,6 @@ textarea {
 }
 
 
-
 #gallery-grid {
     grid-column: 1 / 4;
     display: grid;
@@ -326,6 +324,7 @@ textarea {
     box-shadow: 0px 0px 10pt 1pt white;
     border: 1px solid black;
     margin-bottom: 25px;
+    margin-right: 20px;
 
 }
 
