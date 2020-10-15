@@ -212,6 +212,7 @@ html {
     grid-column-gap: 10px;
     background-color: rgb(37, 37, 37, 0.9);
     padding-left: 10px;
+    padding-right: 10px;
     box-shadow: 0px 0px 10pt 1pt white;
     border: 1px solid black;
     margin-bottom: 25px;
