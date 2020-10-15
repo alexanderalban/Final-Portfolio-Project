@@ -44,7 +44,7 @@ html {
     display: grid;
     justify-content: center;
     animation: backInLeft;
-    animation-duration: 1s;
+    animation-duration: 1.2s;
 }
 
 #chris-section {
@@ -52,7 +52,7 @@ html {
     display: grid;
     justify-content: center;
     animation: backInRight;
-    animation-duration: 1s;
+    animation-duration: 1.2s;
 
 }
 
