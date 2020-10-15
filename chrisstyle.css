@@ -213,7 +213,7 @@ footer {
   -moz-animation: fadeIn ease 3s;
   -o-animation: fadeIn ease 3s;
   -ms-animation: fadeIn ease 3s;
-  transition: .2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 @keyframes fadeIn {
   0% {
@@ -378,4 +378,9 @@ h2:before {
 
 .current {
   color: #436dbb;
+}
+
+.about-text-container p {
+  line-height: 1.5;
+  letter-spacing: 2px;
 }
