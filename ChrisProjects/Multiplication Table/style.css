@@ -1,0 +1,23 @@
+td {
+  height: 75px;
+  width: 75px;
+  text-align: center;
+  border: 5px solid black;
+  font-size: 50px;
+}
+
+table {
+  margin: auto auto;
+}
+
+td:nth-child(odd) {
+  background: red;
+}
+
+td:nth-child(even) {
+  background: blue;
+}
+
+td:nth-child(1) {
+  background: green;
+}
