@@ -28,6 +28,7 @@ html {
       1px -1px 0 goldenrod,
       -1px 1px 0 goldenrod,
        1px 1px 0 goldenrod;
+       transition: .3s ease-in-out;
 }
 
 #choose-coder {
@@ -44,6 +45,7 @@ html {
       -1px 1px 0 #2C4A82,
        1px 1px 0 #2C4A82;
        font-size: 30pt;
+       transition: .3s ease-in-out;
 }
 
 #alex-section {
