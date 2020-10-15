@@ -15,6 +15,10 @@ body {
   border-radius: 50%;
 }
 
+p {
+  text-shadow: 2px 2px 4px rgb(156, 145, 145);
+}
+
 header {
   display: flex;
   justify-content: center;
@@ -55,18 +59,20 @@ header {
 
   border: none;
   background-image: linear-gradient(to right, #436dbb, #2b4981);
-  box-shadow: 0px 0px 10pt 1pt black;
+  box-shadow: 0px 0px 10pt 1pt rgb(17, 16, 16);
   text-decoration: none;
   font-size: 110%;
   color: #fff;
   font-weight: 600;
   border-radius: 50px;
   margin-top: 50px;
+  text-shadow: 2px 2px 4px rgb(156, 145, 145);
 }
 
 .has-border:hover {
   opacity: 1;
   background-image: linear-gradient(to left, #436dbb, #2b4981);
+  box-shadow: 0px 0px 10pt 1pt rgb(255, 255, 255);
 }
 
 #profile-pic {
@@ -82,12 +88,11 @@ header {
   height: 100vh;
   width: 100%;
   background-image: url(./Images/profile.jpg);
-
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: 100% 100%;
 
   background-size: cover;
+  overflow: hidden;
 }
 
 .landing-h1 {
@@ -96,11 +101,12 @@ header {
   margin-top: 20px;
   letter-spacing: 2px;
   border-bottom: 0;
+  text-shadow: 2px 2px 4px rgb(156, 145, 145);
 }
 
 h2 {
   color: aliceblue;
-
+  text-shadow: 2px 2px 4px rgb(156, 145, 145);
   letter-spacing: 3px;
 }
 
@@ -131,6 +137,8 @@ footer {
   text-decoration: none;
   margin: 10px;
   color: white;
+  text-shadow: 2px 2px 4px rgb(156, 145, 145);
+  font-weight: 500;
 }
 
 .landing-main-div {
@@ -278,9 +286,10 @@ footer {
 
 h2:before {
   background-image: linear-gradient(to right, #436dbb, #2b4981);
+  box-shadow: 0px 0px 10pt 1pt black;
   content: "";
   display: inline-block;
-  height: 2px;
+  height: 4px;
   position: relative;
   vertical-align: middle;
   width: 30px;
@@ -315,6 +324,7 @@ h2:before {
 
 .current {
   color: #436dbb;
+  text-shadow: 2px 2px 4px rgb(61, 58, 58);
 }
 
 .about-text-container p {
