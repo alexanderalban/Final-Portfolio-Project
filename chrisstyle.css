@@ -428,6 +428,11 @@ h2:before {
     align-items: flex-start;
     flex-direction: row;
   }
+
+  .logo {
+    height: 55pt;
+    width: auto;
+  }
 }
 
 @media only screen and (min-width: 800px) {
