@@ -21,6 +21,13 @@ html {
     color: white;
     font-size: 45pt;
     margin-bottom: 25pt;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow:
+       3px 3px 0 goldenrod,
+     -1px -1px 0 goldenrod,  
+      1px -1px 0 goldenrod,
+      -1px 1px 0 goldenrod,
+       1px 1px 0 goldenrod;
 }
 
 #choose-coder {
