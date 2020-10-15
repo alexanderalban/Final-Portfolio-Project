@@ -23,7 +23,7 @@
     <!-- All Header Items (nav, logo) -->
     <header id="navbar">
         <div class="header-end">
-            <a href="#main-main" class="home-button fade-in">HOME</a>
+            <a href="#landing-main" class="home-button fade-in link">HOME</a>
             <a href="#about-section" class="link fade-in">ABOUT ME</a>
             <a href="#gallery-main" class="link fade-in">WEBSITE GALLERY</a>
             <a href="#resume-main" class="link fade-in">RESUME</a>
@@ -33,63 +33,57 @@
     </header>
     <!-- Main Wrapper for whole page's content. Mains in our skeleton will become "section" titles
     while keeping their main ID's -->
-    <main id="main-main">
+    <main id="landing-main" class="landing-main section">
         <!-- Sticky LinkedIn Button for the whole Page -->
         <a id="sticky-social-button" href="."><img id="linked-button" src="./Images/iconfinder_linkedin_blue.png"></a> 
         <!-- Landing Page Main Content -->
         <section class="landing-main">
             <div class="landing-main-div">
-              <div class="landing-main-container fade-in">
-                <p>Hello, My Name Is</p>
-                <h1 class="landing-h1">Christopher Tyler Foy</h1>
-                <div class="dash-container">
-                  <div>
-                    <span class="dash-upper"></span> <span class="dash"></span>
-                  </div>
-      
+                <div class="landing-main-container fade-in">
+                  <p>Hello, My Name Is</p>
+                  <h1 class="landing-h1">Christopher Tyler Foy</h1>
+        
                   <h2>A Student of Full Stack Web Development</h2>
+        
+                  <a href="#gallery-main" class="has-border">Portfolio </a>
                 </div>
-                <a href="Portfolio.html" id="portfolio-button" class="has-border">Portfolio </a>
               </div>
-            </div>
-            <div class="landing-main-div landing-main-image-container">
-              <!-- <img
-                src="./Images/profile.jpg"
-                id="profile-pic"
-                alt="Head shot of Me"
-              /> -->
-            </div>
-        </section>
-        <!-- About Page Main Content -->
-          <div class="About-section">
-            <div class="about-image-container">
-              <!-- <img src="./Images/about.jpg" id="profile-pic" alt="Head shot of Me" /> -->
-            </div>
-            <div id="about-section" class="about-container">
-              <div class="dash-container">
-                <span class="dash"></span>
-                <h2>ABOUT ME</h2>
-              </div>
-              <p>WHO AM I</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sint
-                excepturi odio a quasi rerum ea, vero obcaecati eum? At cumque
-                veritatis dignissimos expedita neque eveniet? Voluptas molestias omnis
-                cum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-                sint excepturi odio a quasi rerum ea, vero obcaecati eum? At cumque
-                veritatis dignissimos expedita neque eveniet? Voluptas molestias omnis
-                cum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-                sint excepturi odio a quasi rerum ea, vero obcaecati eum? At cumque
-                veritatis dignissimos expedita neque eveniet? Voluptas molestias omnis
-                cum.
-              </p>
+              <div class="landing-main-div landing-main-image-container"></div>
+            </main>
+            <div class="About-section section" id="about-section">
               <div>
-                <a> </a>
+                <div class="about-image-container">
+                  <img
+                    src="./Images/about.jpg"
+                    id="about-image"
+                    alt="Head shot of Me"
+                  />
+                </div>
+        
+                <div class="about-container">
+                  <div class="about-text-container">
+                    <h2>ABOUT ME</h2>
+        
+                    <p>WHO AM I</p>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+                      sint excepturi odio a quasi rerum ea, vero obcaecati eum? At
+                      cumque veritatis dignissimos expedita neque eveniet? Voluptas
+                      molestias omnis cum. Lorem ipsum dolor sit amet consectetur
+                      adipisicing elit. Dolorem sint excepturi odio a quasi rerum ea,
+                      vero obcaecati eum? At cumque veritatis dignissimos expedita neque
+                      eveniet? Voluptas molestias omnis cum. Lorem ipsum dolor sit amet
+                      consectetur adipisicing elit. Dolorem sint excepturi odio a quasi
+                      rerum ea, vero obcaecati eum? At cumque veritatis dignissimos
+                      expedita neque eveniet? Voluptas molestias omnis cum.
+                    </p>
+                    <a href="#gallery-main" class="has-border">View My Work </a>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
           <!-- Image Gallery Main Content -->
-          <section id="gallery-main">
+          <section id="gallery-main" class="section">
             <section  id="gallery-title" class="section-title">
                 <h2 class="title-words">Website Gallery</h2>
             </section>
@@ -151,7 +145,7 @@
             </section>
         </section>
         <!-- Resume Main Content -->
-        <section id=resume-main>
+        <section id="resume-main" class="section">
             <section id="resume-title" class="section-title">
                 <h2 class="title-words">Resume</h2>
             </section>
@@ -249,7 +243,7 @@
             </section>
         </section>
         <!-- Contact Page Main Content -->
-        <section id="contact-main">
+        <section id="contact-main" class="section">
             <section id="contact-title" class="section-title">
                 <h2 class="title-words">Contact Me</h2>
             </section>
