@@ -307,6 +307,7 @@ html {
     border: 1px solid white;
     border-radius: 25%;
     margin-bottom: 25px;
+    box-shadow: 0px 0px 2pt 1pt white;
 }
 
 #name-question, #how-did-you-hear-question {
@@ -326,6 +327,8 @@ html {
     width: 80%;
     padding: 10px;
     border-radius: 10px;
+    box-shadow: 0px 0px 2pt 1pt white;
+    border: 1px solid white;
 
 }
 
@@ -348,6 +351,8 @@ textarea {
     border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10pt;
+    box-shadow: 0px 0px 2pt 1pt white;
+    border: 1px solid white;
 }
 
 .form-button {

@@ -146,6 +146,7 @@
     #contact-main {
         grid-template-columns: 1fr;
         background-position: center top;
+        justify-content: center;
     }
 
     #contact-title {
@@ -155,6 +156,7 @@
 
     #form-wrapper {
         height: auto;
+        justify-content: center;
     }
 
     #contact-form {
@@ -164,17 +166,21 @@
         margin-bottom: 35px;
         height: 100%;
         border-radius: 0%;
-        justify-content: center;
+        justify-items: center;
         width: 95%;
         padding: 0;
         padding-left: 10px;
+        display: grid;
         justify-self: center;
+        justify-content: center;
     }
 
     #name-question, #email-question {
         max-height: 50px;
-        width: 80%;
+        width: 100%;
         margin-top: 20ox;
+        justify-self: center;
+        justify-content: center;
     }
 
     #email-question, #contact-confirm {
@@ -198,6 +204,7 @@
         display: flex;
         justify-self: left;
         margin-top: 10px;
+        justify-self: center;
     }
 
     #reset-button {
