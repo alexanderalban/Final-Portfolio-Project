@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+}
+
+.header {
+  background: rgba(45, 177, 238, 0.877);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30%;
+  font-size: xx-large;
+  font-weight: 300;
+  color: white;
+}
+
+.header h1 {
+  font-weight: 200;
+}
+
+.footer {
+  background: #f0ecec;
+}
+
+.boxes {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  color: black;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+/* Added span elements for each of the three colored bars */
+.bar1 {
+  background: rgba(45, 177, 238, 0.877);
+  width: 200px;
+  height: 30px;
+}
+
+.bar2 {
+  background: orangered;
+  width: 200px;
+  height: 30px;
+}
+
+.bar3 {
+  background: turquoise;
+  width: 200px;
+  height: 30px;
+}
+
+.boxes {
+  margin-top: 10px;
+}
+
+.boxes div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  width: 200px;
+  text-align: center;
+  font-size: 103%;
+}
+
+h2 {
+  font-size: 225%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 992px) {
+  .header {
+    background: turquoise;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    font-size: xx-large;
+    color: white;
+    font-size: 175%;
+  }
+
+  .footer {
+    background: #292b2e;
+  }
+
+  .boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+  }
+
+  br {
+    display: none;
+  }
+
+  .boxes div {
+    font-size: 100%;
+  }
+}
