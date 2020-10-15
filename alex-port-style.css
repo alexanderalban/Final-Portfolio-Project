@@ -5,8 +5,20 @@
 }
 
 #about-image {
-    width: 100%;
-    height: auto;
+    width: 1000px;
+    height: 1000px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+#about-text-container {
+    width: 1000px;
+    height: 1000px;
+}
+
+#about-description {
+    padding-left: 85px;
+    padding-right: 85px;
 }
 
 @media only screen and (max-width: 800px) {
