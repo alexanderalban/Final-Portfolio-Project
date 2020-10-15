@@ -35,7 +35,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 
-
   width: 100%;
   height: 100vh;
   display: flex;
@@ -64,7 +63,6 @@ header {
   border-radius: 50px;
   margin-top: 50px;
 }
-
 
 .has-border:hover {
   opacity: 1;
@@ -122,8 +120,6 @@ footer {
 }
 
 .home-button {
-  color: #436dbb;
-  text-decoration: none;
   margin-right: 10px;
 }
 
@@ -189,7 +185,7 @@ footer {
   width: 30px;
   height: 30px;
   padding: 5px;
-  transition: .2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 .fab:hover {

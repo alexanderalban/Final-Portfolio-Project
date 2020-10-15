@@ -23,22 +23,23 @@ link.forEach((anchor) => {
   });
 });
 
-let mainSections = document.querySelectorAll(".section");
-let mainBody = document.querySelector("body");
-let fromTop = mainBody.scrollTop;
-let mainNavLinks = document.querySelectorAll(".link");
 
-mainBody.addEventListener("scroll", function () {
-  fromTop = mainBody.scrollTop;
-  mainNavLinks.forEach(function (currentValue, currentIndex) {
-    let section = mainSections[currentIndex];
-    if (
-      section.offsetTop <= fromTop &&
-      section.offsetTop + section.offsetHeight > fromTop
-    ) {
-      currentValue.classList.add("current");
-    } else {
-      currentValue.classList.remove("current");
-    }
-  });
-});
+
+const links = document.querySelectorAll('.link');
+const sections = document.querySelectorAll('.section');
+console.log(sections)
+function changeLinkState() {
+  let index = sections.length;
+
+  while(--index && window.scrollY< sections[index].offsetTop +1000) {
+    
+    console.log("windowscrolly" , window.scrollY , "sectionsoffsettop" , sections[index].offsetTop )
+    links.forEach((link) => link.classList.remove('current'));
+    
+  links[index].classList.add('current');
+  };
+}
+
+changeLinkState();
+window.addEventListener('scroll', changeLinkState);
+
