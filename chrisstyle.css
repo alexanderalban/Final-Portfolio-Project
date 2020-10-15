@@ -418,4 +418,20 @@ h2:before {
   .about-text-container {
     background: rgb(37, 37, 37, 0.7);
   }
+
+  .header-end {
+    display: none;
+  }
+  header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  nav {
+    display: none;
+  }
 }
