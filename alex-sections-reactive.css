@@ -167,7 +167,7 @@
         height: 100%;
         border-radius: 0%;
         justify-items: center;
-        width: 95%;
+        width: 80%;
         padding: 0;
         padding-left: 10px;
         display: grid;
@@ -177,7 +177,7 @@
 
     #name-question, #email-question {
         max-height: 50px;
-        width: 100%;
+        width: 80%;
         margin-top: 20ox;
         justify-self: center;
         justify-content: center;
@@ -194,10 +194,13 @@
 
     #comment-section {
         grid-column: 1 / 2;
+        display: grid;
+        justify-items: center;
     }
 
     textarea {
         max-width: 80%;
+        justify-self: center;
     }
 
     .form-button {
@@ -209,6 +212,10 @@
 
     #reset-button {
         display: none;
+    }
+
+    #submit-button {
+        margin-top: 30px;
     }
 
     /* Footer Settings */

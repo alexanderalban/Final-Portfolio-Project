@@ -24,5 +24,10 @@
         margin-right: 10px;
         margin-left: 10px;
     }
+    .About-section {
+        background-image: url(./Images/ALEX0109_INTERNET.jpg);
+        background-position: center center;
+
+    }
 
 }
