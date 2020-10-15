@@ -94,35 +94,6 @@
     }
 
 
-    /* Contact Page Phone Settings*/
-    #contact-main {
-        grid-template-columns: 1fr;
-        background-position: center top;
-    }
-
-    #contact-title {
-        grid-column: 1 / 2;
-        font-size: 30pt;
-    }
-
-    #contact-form {
-        grid-column: 1 / 2;
-        grid-template-columns: 1fr;
-    }
-
-    #email-question, #contact-confirm {
-        grid-column: 1 / 2;
-    }
-
-    #comment-section {
-        grid-column: 1 / 2;
-    }
-
-    .form-button {
-        justify-self: right;
-        margin-top: 10px;
-    }
-
 
     /* Gallery Page Phone Settings */
 
@@ -161,12 +132,92 @@
 
     #resume-headshot {
         margin-bottom: 10px;
+        width: 97%;
     }
 
     #resume-content {
         grid-column: 1 / 2;
+        margin-right: 0;
+        width: 95%;
+        justify-self: center;
     }
 
+    /* Contact Page Phone Settings*/
+    #contact-main {
+        grid-template-columns: 1fr;
+        background-position: center top;
+        justify-content: center;
+    }
+
+    #contact-title {
+        grid-column: 1 / 2;
+        font-size: 30pt;
+    }
+
+    #form-wrapper {
+        height: auto;
+        justify-content: center;
+    }
+
+    #contact-form {
+        grid-column: 1 / 2;
+        grid-template-columns: 1fr;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        height: 100%;
+        border-radius: 0%;
+        justify-items: center;
+        width: 95%;
+        padding: 0;
+        padding-left: 10px;
+        display: grid;
+        justify-self: center;
+        justify-content: center;
+    }
+
+    #name-question, #email-question {
+        max-height: 50px;
+        width: 100%;
+        margin-top: 20ox;
+        justify-self: center;
+        justify-content: center;
+    }
+
+    #email-question, #contact-confirm {
+        grid-column: 1 / 2;
+    }
+
+
+    #email-question {
+        margin-top: 20px;
+    }
+
+    #comment-section {
+        grid-column: 1 / 2;
+    }
+
+    textarea {
+        max-width: 80%;
+    }
+
+    .form-button {
+        display: flex;
+        justify-self: left;
+        margin-top: 10px;
+        justify-self: center;
+    }
+
+    #reset-button {
+        display: none;
+    }
+
+    /* Footer Settings */
+
+    Footer {
+        margin-top: 10px;
+
+
+}
 
 }
 
