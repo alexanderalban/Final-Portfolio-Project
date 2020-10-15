@@ -43,12 +43,16 @@ html {
     grid-column: 2 / 3;
     display: grid;
     justify-content: center;
+    animation: backInLeft;
+    animation-duration: 1s;
 }
 
 #chris-section {
     grid-column: 1 / 2;
     display: grid;
     justify-content: center;
+    animation: backInRight;
+    animation-duration: 1s;
 
 }
 
