@@ -116,7 +116,7 @@ footer {
   background: rgb(66, 65, 65);
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .home-button {
@@ -302,7 +302,35 @@ h2:before {
   margin-top: 70px;
 }
 
-@media only screen and (max-width: 600px) {
+#about-image {
+  width: 100%;
+  height: auto;
+}
+
+#about-section p {
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 10px;
+}
+
+.current {
+  color: #436dbb;
+}
+
+.about-text-container p {
+  line-height: 1.5;
+  letter-spacing: 2px;
+}
+
+.logo {
+  margin: 0px;
+  height: 100pt;
+  width: auto;
+  background-color: white;
+  box-shadow: 0pt -1.5pt 6pt 5pt white;
+}
+
+@media only screen and (max-width: 800px) {
   .landing-main {
     flex-direction: column;
     background-image: url(./Images/profile.jpg);
@@ -363,24 +391,31 @@ h2:before {
     height: 100px;
     position: static;
   }
-}
+  .About-section {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./Images/profile.jpg);
 
-#about-image {
-  width: 100%;
-  height: auto;
-}
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 100% 100%;
 
-#about-section p {
-  margin-bottom: 50px;
-  margin-left: 50px;
-  margin-right: 10px;
-}
+    background-size: cover;
+  }
 
-.current {
-  color: #436dbb;
-}
+  .about-text-container h2 {
+    margin-top: 100px;
+  }
 
-.about-text-container p {
-  line-height: 1.5;
-  letter-spacing: 2px;
+  .about-text-container p {
+    margin-right: 100px;
+  }
+
+  #about-section p {
+    margin-left: 0px;
+  }
+
+  .about-text-container {
+    background: rgb(37, 37, 37, 0.7);
+  }
 }
