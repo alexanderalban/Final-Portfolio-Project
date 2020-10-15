@@ -398,6 +398,12 @@ textarea {
     font-size: 10pt;
     box-shadow: 0px 0px 2pt 1pt white;
     border: 1px solid white;
+    transition: .5s ease-in-out;
+}
+
+textarea:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10pt 1pt white;
 }
 
 .form-button {

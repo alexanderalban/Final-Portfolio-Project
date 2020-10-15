@@ -217,6 +217,7 @@ footer {
   -moz-animation: fadeIn ease 3s;
   -o-animation: fadeIn ease 3s;
   -ms-animation: fadeIn ease 3s;
+  transition: .2s ease-in-out;
 }
 @keyframes fadeIn {
   0% {
