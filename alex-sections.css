@@ -255,6 +255,11 @@ html {
   transform: scale(0.001);
 }
 
+.resume-icon {
+  max-height: 64px;
+  max-width: 64px;
+}
+
 /* Contact Page Settings */
 
 #contact-main {
