@@ -21,6 +21,14 @@
     padding-right: 85px;
 }
 
+.has-border {
+    transition: .3s ease-in-out;
+}
+
+.has-border:hover {
+    transform: scale(1.1);
+}
+
 @media only screen and (max-width: 800px) {
     .landing-main {
       flex-direction: column;
