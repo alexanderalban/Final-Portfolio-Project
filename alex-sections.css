@@ -260,6 +260,10 @@ html {
   max-width: 64px;
 }
 
+li {
+  margin-top: 10px;
+}
+
 /* Contact Page Settings */
 
 #contact-main {
