@@ -255,6 +255,11 @@ html {
   transform: scale(0.001);
 }
 
+.resume-icon {
+  max-height: 64px;
+  max-width: 64px;
+}
+
 /* Contact Page Settings */
 
 #contact-main {
@@ -414,6 +419,7 @@ textarea:hover {
   transition: 0.3s ease-in-out;
   font-size: 16pt;
   display: inline-block;
+  border-radius: 10px;
 }
 
 .form-button:hover {
