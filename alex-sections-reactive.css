@@ -1,115 +1,108 @@
 /* TABLET SETTINGS */
 
 @media (max-width: 768px) {
+  /* Main Landing Page Tablet Settings */
+  #main-landing-title {
+    font-size: 35pt;
+  }
 
+  .profile-pic {
+    width: 75%;
+  }
 
-    /* Main Landing Page Tablet Settings */
-    #main-landing-title {
-        font-size: 35pt;
-    }
+  /* Contact Page Tablet Settings */
+  #contact-main {
+    background-position: center center;
+  }
 
-    .profile-pic {
-        width: 75%;
-    }
+  #contact-title {
+    font-size: 35pt;
+  }
 
+  .form-button {
+    font-size: 12pt;
+  }
 
-    /* Contact Page Tablet Settings */
-    #contact-main {
-        background-position: center center;
-    }
+  /* Gallery Page Tablet Settings */
 
-    #contact-title {
-        font-size: 35pt;
-    }
+  #gallery-main {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
-    .form-button {
-        font-size: 12pt;
-    }
+  #gallery-title {
+    grid-column: 1 / 3;
+    font-size: 35pt;
+  }
 
+  #gallery-grid {
+    grid-column: 1 / 3;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas:
+      "barbershop gallery"
+      "tic-tac-toe todos"
+      "calculator responsive"
+      "resume nasa"
+      "blog .";
+  }
 
-    /* Gallery Page Tablet Settings */
+  /* Resume Page Tablet Settings */
+  #resume-title {
+    font-size: 35pt;
+  }
 
-    #gallery-main {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  #resume-content {
+    grid-template-columns: 1fr;
+  }
 
-    #gallery-title {
-        grid-column: 1 / 3;
-        font-size: 35pt;
-    }
+  #resume-description {
+    grid-column: 1 /2;
+  }
 
-    #gallery-grid {
-        grid-column: 1 / 3;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(5, 1fr);
-        grid-template-areas: 
-        "barbershop gallery"
-        "tic-tac-toe todos"
-        "calculator responsive"
-        "resume nasa"
-        "blog .";
-    }
+  #resume-line {
+    grid-column: 1 / 2;
+  }
 
-    /* Resume Page Tablet Settings */
-    #resume-title {
-        font-size: 35pt;
-    }
+  #resume-services,
+  #previous-jobs-title,
+  #education-title {
+    grid-column: 1 / 2;
+    font-size: 24pt;
+  }
 
-    #resume-content {
-        grid-template-columns: 1fr;
-    }
+  /* PHONE SETTINGS */
 
-    #resume-description {
-        grid-column: 1 /2;
-    }
-
-    #resume-line {
-        grid-column: 1 / 2;
-    }
-
-    #resume-services, #previous-jobs-title, #education-title {
-        grid-column: 1 / 2;
-        font-size: 24pt;
-
-
-}
-
-
-/* PHONE SETTINGS */
-
-@media (max-width: 576px) {
+  @media (max-width: 576px) {
     /* Main Landing Page */
     #main-landing-main {
-        grid-template-columns: 1fr;
+      grid-template-columns: 1fr;
     }
 
     #main-landing-title {
-        grid-column: 1 / 2;
-        font-size: 30pt;
-        margin-bottom: 25pt;
+      grid-column: 1 / 2;
+      font-size: 30pt;
+      margin-bottom: 25pt;
     }
 
     #alex-section {
-        grid-column: 1 / 2;
+      grid-column: 1 / 2;
     }
-
-
 
     /* Gallery Page Phone Settings */
 
     #gallery-main {
-        grid-template-columns: 1fr;
+      grid-template-columns: 1fr;
     }
 
     #gallery-title {
-        grid-column: 1 / 2;
+      grid-column: 1 / 2;
     }
 
     #gallery-grid {
-        grid-column: 1 / 2;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(9, 1fr);
-        grid-template-areas: 
+      grid-column: 1 / 2;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(9, 1fr);
+      grid-template-areas:
         "barbershop"
         "gallery"
         "tic-tac-toe"
@@ -123,109 +116,106 @@
 
     /* Resume Page Phone Settings */
     #resume-main {
-        grid-template-columns: 1fr;
+      grid-template-columns: 1fr;
     }
 
     #resume-title {
-        grid-column: 1 / 2;
+      grid-column: 1 / 2;
     }
 
     #resume-headshot {
-        margin-bottom: 10px;
-        width: 97%;
+      margin-bottom: 10px;
+      width: 97%;
     }
 
     #resume-content {
-        grid-column: 1 / 2;
-        margin-right: 0;
-        width: 95%;
-        justify-self: center;
+      grid-column: 1 / 2;
+      margin-right: 0;
+      width: 95%;
+      justify-self: center;
     }
 
     /* Contact Page Phone Settings*/
     #contact-main {
-        grid-template-columns: 1fr;
-        background-position: center top;
-        justify-content: center;
+      grid-template-columns: 1fr;
+      background-position: center top;
+      justify-content: center;
     }
 
     #contact-title {
-        grid-column: 1 / 2;
-        font-size: 30pt;
+      grid-column: 1 / 2;
+      font-size: 30pt;
     }
 
     #form-wrapper {
-        height: auto;
-        justify-content: center;
+      height: auto;
+      justify-content: center;
     }
 
     #contact-form {
-        grid-column: 1 / 2;
-        grid-template-columns: 1fr;
-        margin-top: 35px;
-        margin-bottom: 35px;
-        height: 100%;
-        border-radius: 0%;
-        justify-items: center;
-        width: 80%;
-        padding: 0;
-        padding-left: 10px;
-        display: grid;
-        justify-self: center;
-        justify-content: center;
+      grid-column: 1 / 2;
+      grid-template-columns: 1fr;
+      margin-top: 35px;
+      margin-bottom: 35px;
+      height: 100%;
+      border-radius: 0%;
+      justify-items: center;
+      width: 80%;
+      padding: 0;
+      padding-left: 10px;
+      display: grid;
+      justify-self: center;
+      justify-content: center;
     }
 
-    #name-question, #email-question {
-        max-height: 50px;
-        width: 80%;
-        margin-top: 20ox;
-        justify-self: center;
-        justify-content: center;
+    #name-question,
+    #email-question {
+      max-height: 50px;
+      width: 80%;
+      margin-top: 20ox;
+      justify-self: center;
+      justify-content: center;
     }
 
-    #email-question, #contact-confirm {
-        grid-column: 1 / 2;
+    #email-question,
+    #contact-confirm {
+      grid-column: 1 / 2;
     }
-
 
     #email-question {
-        margin-top: 20px;
+      margin-top: 20px;
     }
 
     #comment-section {
-        grid-column: 1 / 2;
-        display: grid;
-        justify-items: center;
+      grid-column: 1 / 2;
+      display: grid;
+      justify-items: center;
     }
 
     textarea {
-        max-width: 80%;
-        justify-self: center;
+      max-width: 80%;
+      justify-self: center;
     }
 
     .form-button {
-        display: flex;
-        justify-self: left;
-        margin-top: 10px;
-        justify-self: center;
+      display: flex;
+      justify-self: left;
+      margin-top: 10px;
+      justify-self: center;
     }
 
     #reset-button {
-        display: none;
+      display: none;
     }
 
     #submit-button {
-        margin-top: 30px;
+      margin-top: 30px;
     }
 
     /* Footer Settings */
 
     Footer {
-        margin-top: 10px;
-
-
-}
-
-}
-
+      margin-top: 10px;
+    }
+  }
 }

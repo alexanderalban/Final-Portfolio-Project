@@ -1,55 +1,51 @@
 .landing-main-image-container {
-    background-image: url(./Images/ALEX0109_INTERNET.jpg);
-    background-size: auto;
-    background-position: center right;
+  background-image: url(./Images/ALEX0109_INTERNET.jpg);
+  background-size: auto;
+  background-position: center right;
 }
 
 #about-image {
-    width: 1000px;
-    height: 1000px;
-    object-fit: cover;
-    overflow: hidden;
+  width: 1000px;
+  height: 1000px;
+  object-fit: cover;
+  overflow: hidden;
 }
 
 #about-text-container {
-    width: 1000px;
-    height: 1000px;
+  width: 1000px;
+  height: 1000px;
 }
 
 #about-description {
-    padding-left: 85px;
-    padding-right: 85px;
+  padding-left: 85px;
+  padding-right: 85px;
 }
 
 .has-border {
-    transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .has-border:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
-
-
 @media only screen and (max-width: 800px) {
-    .landing-main {
-      flex-direction: column;
-      background-image: url(./Images/ALEX0109_INTERNET.jpg);
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-position: center center;
-      background-size: cover;
-    }
+  .landing-main {
+    flex-direction: column;
+    background-image: url(./Images/ALEX0109_INTERNET.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+  }
 
-    .landing-main-container {
-        align-content: center;
-        margin-right: 10px;
-        margin-left: 10px;
-    }
-    .About-section {
-        background-image: url(./Images/ALEX0109_INTERNET.jpg);
-        background-position: center center;
-
-    }
-
+  .landing-main-container {
+    align-content: center;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .About-section {
+    background-image: url(./Images/ALEX0109_INTERNET.jpg);
+    background-position: center center;
+  }
 }
